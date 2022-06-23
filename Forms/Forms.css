@@ -56,20 +56,20 @@ body {
   background-color: #060b23;
 }
 
-.form_input:not(:-moz-placeholder-shown) .form_input:not(:focus) ~ .form_label {
+.form_input:not(:-moz-placeholder-shown).form_input:not(:focus) ~ .form_label {
   top: -0.5rem;
   left: 0.8rem;
   font-size: 0.8rem;
 }
 
-.form_input:not(:-ms-input-placeholder) .form_input:not(:focus) ~ .form_label {
+.form_input:not(:-ms-input-placeholder).form_input:not(:focus) ~ .form_label {
   top: -0.5rem;
   left: 0.8rem;
   font-size: 0.8rem;
 }
 
 .form_input:focus ~ .form_label,
-.form_input:not(:placeholder-shown) .form_input:not(:focus) ~ .form_label {
+.form_input:not(:placeholder-shown).form_input:not(:focus) ~ .form_label {
   top: -0.5rem;
   left: 0.8rem;
   font-size: 0.8rem;

@@ -81,8 +81,7 @@ body{
 }
 
 .form_input:focus ~ .form_label,
-.form_input:not(:placeholder-shown)
-.form_input:not(:focus) ~ .form_label
+.form_input:not(:placeholder-shown).form_input:not(:focus) ~ .form_label
 {
     top: -0.5rem;
     left: 0.8rem;
